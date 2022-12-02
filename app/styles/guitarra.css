@@ -1,0 +1,42 @@
+
+
+
+.guitarra{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    gap: 1rem;
+    max-width: 70rem;
+    margin: 10rem auto;
+}
+.contenido h3{
+    font-size: 5rem;
+    margin: 1rem 0;
+    /* text-transform: uppercase; */
+}
+.descripcion{
+    font-size: 1.8rem ;
+}
+.precio{
+    color: var(--primary);
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 0;
+}
+@media(min-width: 768px){
+    .guitarra{
+        gap: 5rem;
+    }
+    .contenido h3{
+        font-size: 8rem;
+    }
+    .precio{
+        font-size: 5rem;
+    }
+}
+
+
+.error{
+
+    color: red;
+}
